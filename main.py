@@ -84,4 +84,4 @@ async def poll(request):
     return json_resp(p.__dict__())
 if __name__ == '__main__':
     app.add_task(t.register_eventsub())
-    app.run(host='0.0.0.0', port=8443, debug=True)
+    app.run(host='0.0.0.0', port=8000, debug=True)

@@ -3,3 +3,4 @@ sanic
 requests
 aiohttp
 Jinja2
+python-dotenv
