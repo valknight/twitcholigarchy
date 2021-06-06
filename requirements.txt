@@ -1,0 +1,5 @@
+redis
+sanic
+requests
+aiohttp
+Jinja2

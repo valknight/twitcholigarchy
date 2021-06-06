@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <link href="/static/css/main.css" rel="stylesheet">
+    <script src="/static/js/main.js"></script>
+</head>
+
+<body>
+    <div id="mainContainer" style="display: none;">
+        <div class="container" style="display: none;">
+            <!-- we can set this to visible if we want it for debugging reasons, perhaps -->
+            <div class="identifier box"><span id="username">not logged in</span> | <span id="userid">no user id</span></div>
+        </div>
+        <div class="container">
+            <div class="poll box" id="pollbox">current poll: <span id="pollname">no poll loaded</span><br><span id="runningStatus">waiting for poll...</span></div>
+        </div>
+        <div class="container">
+            <div class="total_bar votebar">
+                <div class="votebar" id="bluebar"></div>
+                <div class="votebar" id="pinkbar"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="blueteam box"><span id="blueteam">No Red Team</span> - <b><span id="redvotes">[]</span> votes</b></div>
+            <div class="pinkteam box"><span id="pinkteam">No pink Team</span> - <b><span id="pinkvotes">[]</span> votes</b></div>
+        </div>
+    </div>
+</body>
+
+</html>
